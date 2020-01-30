@@ -92,3 +92,31 @@ header{
     padding-top: 15px;
     padding-bottom: 30px;
 }
+/* FINE PORTFOLIO */
+
+.about-row{
+    background-color: #1abc9c;
+}
+
+.about{
+    color:white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.about p{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.about button{
+    background: none;
+    border: 2px solid white;
+    padding: 15px 30px;
+}
+
+.about button:hover{
+    background-color: white;
+    color: black;
+    border: none;
+}
