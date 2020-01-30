@@ -65,3 +65,30 @@ header{
     font-size: 24px;
     padding-bottom: 80px;
 }
+/* FINE HEADER */
+
+.portfolio{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #2c3e50;
+}
+
+.portfolio-title h2{
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+.picture img{
+    border-radius: 4px;
+}
+
+.picture {
+    padding-bottom: 30px;
+}
+
+.portfolio-title span{
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
