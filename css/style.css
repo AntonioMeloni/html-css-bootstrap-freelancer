@@ -1,0 +1,67 @@
+header{
+    background-color: #1abc9c;
+}
+
+.navbar{
+    background-color: #2c3e50;
+    border-radius: 0px;
+    line-height: 100px;
+}
+
+.logo a{
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.menu a{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.list-inline li{
+    padding-left: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    .menu{
+        display: none;
+    }
+
+    .container{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .resp-menu{
+        display: none;
+    }
+}
+
+.banner img{
+    max-height: 240px;
+}
+
+.banner{
+    color: white;
+}
+
+.banner h1{
+    font-size: 65px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.banner span{
+    font-size: 40px;
+    padding-top: 15px;
+}
+
+.banner h2{
+    font-size: 24px;
+    padding-bottom: 80px;
+}
