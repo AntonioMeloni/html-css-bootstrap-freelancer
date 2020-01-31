@@ -2,6 +2,40 @@ body {
      padding-top: 100px;
  }
 
+.ms--star{
+    font-size: 45px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.ms--star-blue{
+    font-size: 45px;
+    padding-bottom: 20px;
+    color: #2c3e50;
+}
+
+.ms--star::before,
+.ms--star::after {
+    content: '';
+    display: inline-block;
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    position: relative;
+    bottom: 15px;
+}
+
+.ms--star-blue::before,
+.ms--star-blue::after {
+    content: '';
+    display: inline-block;
+    width: 100px;
+    height: 4px;
+    background-color: #2c3e50;
+    position: relative;
+    bottom: 15px;
+}
+
 .navbar{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -28,6 +62,14 @@ body {
 
 .navbar-default .navbar-brand:hover{
     color: white;
+}
+
+.navbar-default .navbar-toggle i{
+    font-size: 16px;
+}
+
+.navbar-default .navbar-toggle{
+    padding-top: 0;
 }
 
 .navbar-default .navbar-toggle{
@@ -68,7 +110,7 @@ body {
     padding-top: 20px;
 }
 
-.banner span{
+ i{
     font-size: 40px;
     padding-top: 15px;
 }
@@ -165,7 +207,39 @@ body {
 .contact{
     padding-top: 80px;
     padding-bottom: 80px;
+    color: #2c3e50;
 }
+
+.form-control{
+    height: 80px;
+    border: none;
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 30px;
+    box-shadow: none;
+    resize: none;
+}
+
+.form-group{
+    padding-bottom: 30px;
+}
+
+.form-control::placeholder{
+    font-size: 20px;
+    color: #2c3e50;
+}
+
+.form-group button{
+    background-color: #1abc9c;
+    color: white;
+    padding: 20px 30px;
+}
+
+.form-group button:hover{
+    background-color: #148f77;
+    color: white;
+    padding: 20px 30px;
+}
+
 /* FINE CONTACT AREA */
 
 .first-footer-row{
@@ -179,14 +253,17 @@ body {
     padding: 0 20px;
 }
 
-.box li{
-    font-size: 20px;
+.social-icon{
+
 }
 
-.social-icon{
+.social-icon > i{
+    font-size: 25px;
+    width: 52px;
+    height: 52px;
     border: 2px solid white;
     border-radius: 50%;
-    padding: 7px 15px;
+    padding: 10px;
 }
 
 .box h2{
